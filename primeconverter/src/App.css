@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Titan+One&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  /* background-color: #5968F7; */
+  background-image: linear-gradient(to bottom right, #5968F7, white);
+  /* background-image: url("../public/assets/currency-symbol-bright-blue-financial-background-business-49460312.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%; */
+}
+#text{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6rem;
+}
+h1{
+  margin: 0;
+  /* color: #006DE3; */
+  color: white;
+  width: 50vw;
+  margin-bottom: .5rem;
+  margin-top: 6rem;
+  font-family: 'Titan One', 'cursive';
+  font-weight: 400;
+  font-size: 400%;
+}
+.equals{
+  font-weight: bold;
+  font-size: 4rem;
+  color: white;
+}
+input{
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: .3em;
+  padding: 0 .25rem;
+  width: 7em;
+  height: 2.5em;
+  font-size: 2rem;
+  font-family: 'Rubik', sans-serif; 
+  color: #016DE2;
+}
+#holder{
+  border: 3px solid white;
+  height: 80vh;
+  width: 80vw;
+  /* background-color: white; */
+  border-radius: 1em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+
+}
+select{
+  margin: 0 0 0 .2em;
+  border-radius: .3em;
+  padding: .4em .4em .4em 0.1em;
+  background-color: #3A63FE;
+  cursor: pointer;
+  width: 3.7em;
+  height: 2em;
+  color: white;
+  font-size: 2rem;
+}
+#tabs{
+  display: flex;
+  justify-content: space-between;
+  background-color: #1B202C;
+  padding-bottom: 8.6em;
+  padding-top: 4em;
+  border-bottom-left-radius: .6em;
+  border-bottom-right-radius: .6em;
+}
+#tab1{
+  margin-left: 6em;
+}
+#tab2{
+  margin-right: 5em;
+}
+#currencyRow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
